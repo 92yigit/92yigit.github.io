@@ -22,6 +22,7 @@ background-size: cover;
 #box1{
     width: 50px;
     height: 50px;
+    overflow: auto;
 }
 #box2{
     width: 75px;
@@ -31,8 +32,11 @@ background-size: cover;
     width: 150px;
     height: 150px;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     word-spacing: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px;
 }
 #box4{
     width: 150px;
@@ -41,6 +45,9 @@ background-size: cover;
     right: 0px;
     bottom: 0px;
     background-color: violet;
+}
+#box4:hover{
+    opacity: 0;
 }
 #box5{
     width: 75px;
@@ -54,10 +61,11 @@ background-size: cover;
     position: absolute;
     margin-left: 0px;
     background-color: teal;
+    opacity: 0.4;
 }
 #sl{
     font-size: 25px;
     font-style: italic;
-    text-shadow: 3px 2px 3px red;
+    text-shadow: 3px 2px 3px ;
     
 }
