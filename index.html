@@ -7,29 +7,60 @@
     <link rel="stylesheet" href="css/main.css">
     <style>
         ul{
-            border: solid 1px greenyellow;
+            border: solid 5px greenyellow;
+            list-style-type: none;
+            text-align: center;
              
+        }
+        
+        a:link{
+            text-decoration: none;
+        }
+        
+        li{
+            border: solid 2px green;
+            width: 60px;
+            padding: 5px;
+            border-radius: 15px;
+            margin: 5px;
+            text-align: center;
+            background-color: brown;
+            float: left;
+        }
+        #photo1{
+            width: 10%;
+            border: solid 2px green;
+        }
+
+        @media screen and (max-width:900px) {
+            body{
+                background-color:rgb(36, 21, 21) ;
+            }
+            
         }
     </style>
 </head>
 <body>
     <h2>YIGIT KILIC</h2>
     <div id="fp"><p>This is my web page</p></div>
-    <div id="box1"></div>
+    <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+    </ul>
+    <br>
+    <div id="box1">Lorem ipsum, dolor sit amet amet explicabo, illum eligendi laboriosam ipsum minima dignissimos iure omnis ea consectetur distinctio.</div>
     <div id="box2"></div>
-    <div id="box3">text align center</div>
+    <div id="box3">Lorem ipsum dolor sit amet.sit amet. text align center</div>
     <div id="box4"><div id="box5"><div id="box6"></div></div></div>
-    <br><br><br><br><br><br><br><br><br>
-    <a href="/about.html">About</a>
+    <br><br><br><br><br><br><br><br>
+    <img id="photo1" src="images/photo1.png" alt="photo1">
+    <a  href="/about.html">About</a>
     <input type="range">
     
     <p id="sl">aaaaa</p>
-    <ul>
-        <li>gg</li>
-        <li>gg</li>
-        <li>gg</li>
-        <li>gg</li>
-        <li>gg</li>
-    </ul>
+    
+    <iframe src="import.html"></iframe>
 </body>
 </html>
